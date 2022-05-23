@@ -1,0 +1,24 @@
+:root {
+    --color-primary-0:#483698;
+    --color-secondary-0:#FFFFFF;
+    --color-secondary-1:#F9F9F9;
+    --color-secondary-2:#B9B9B9;
+    --color-secondary-3:#8A8A8A;
+    --color-secondary-4:#282828;
+    --color-cta-light:#FFE766;
+    --color-cta-0:#FBDE40;
+    --color-danger:#DC3545;
+    --color-transparent:none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: var(--color-cta-light);
+}
+
