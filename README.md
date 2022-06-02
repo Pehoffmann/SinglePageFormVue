@@ -7,7 +7,7 @@
 
 # 💻 Desafio
 
-Nesse projeto foi realizado um formulário para cadastro de medicos em uma plataforma para consultas, foi seguido um layout base, funcionalidades e patterns exigidos, tudo ocorreu muito bem e acredito que minha maior dificuldade foi transformar tudo em um SPA(Single Page Application) para que não houvesse mudança de páginas para mudança de formulário, mesmo com uma pequena dificuldade e minha falta de tempo nessa última semana, acredito que isso seja um diferencial compensável.
+Nesse projeto foi realizado um formulário para cadastro de médicos em uma plataforma para consultas, foi seguido um layout base, funcionalidades e patterns exigidos, tudo ocorreu muito bem e acredito que minha maior dificuldade foi transformar tudo em um SPA(Single Page Application) para que não houvesse mudança de páginas para mudança de formulário, mesmo com uma pequena dificuldade e minha falta de tempo nessa última semana, acredito que isso seja um diferencial compensável.
 
 # 🛠 Pré Requisitos
 
