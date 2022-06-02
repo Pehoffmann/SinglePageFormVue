@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import {currentStep, firstStep} from "../../js/functions/btns"
+import {currentStep, firstStep} from "../../assets/js/functions/btns"
   export default {
     name: "BtnEdit",
     components: {},
