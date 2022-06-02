@@ -1,27 +1,26 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="pt-br">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+    <link
+      rel="icon"
+      href="data:image/png;base64,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"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+    <title>Fácil Consulta - Cadastro de profissional</title>
   </head>
   <body>
-    <noscript>
-      <strong
-        >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
-        properly without JavaScript enabled. Please enable it to
-        continue.</strong
-      >
-    </noscript>
     <div id="app"></div>
-    <!-- built files will be auto injected -->
   </body>
 </html>
