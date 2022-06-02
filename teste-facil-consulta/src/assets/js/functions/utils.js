@@ -1,4 +1,4 @@
-import api from "../../services/api";
+import api from "../../../services/api";
 
 export const showRadio = () => {
   const radio = document.getElementById("radioBoxes");
