@@ -337,6 +337,7 @@
                     <br />
                     <div class="imgs">
                       <img src="./../assets/imgs/desktop-pagina-4.jpeg" alt=""/>
+                      <img class="mobileImg" src="./../assets/imgs/mobile-pagina-4.jpeg">
                     </div>
                   </div>
                 </div>
@@ -359,10 +360,10 @@
 <script>
 import MainTittle from "./Tittles/MainTittle.vue";
 import SubTittle from "./Tittles/SubTittle.vue";
-import BtnRegister from "././Buttons/BtnRegister.vue";
-import BtnNext from "././Buttons/BtnNext.vue";
-import BtnPrevious from "././Buttons/BtnPrevious.vue";
-import BtnEdit from "././Buttons/BtnEdit.vue";
+import BtnRegister from "./Buttons/BtnRegister.vue";
+import BtnNext from "./Buttons/BtnNext.vue";
+import BtnPrevious from "./Buttons/BtnPrevious.vue";
+import BtnEdit from "./Buttons/BtnEdit.vue";
 import { Form, Field, ErrorMessage } from "vee-validate";
 import api from "./../services/api";
 
@@ -373,7 +374,7 @@ import {
   currentSchema,
   currentStep,
   formValues,
-} from "../js/functions/btns.js";
+} from "../assets/js/functions/btns"
 import {
   showRadio,
   estadoCidades,
@@ -382,7 +383,7 @@ import {
   formatarCpf,
   formatarTel,
   formatarMoeda,
-} from "../js/functions/utils";
+} from "../assets/js/functions/utils";
 
 export default {
   name: "SignUpForm",
