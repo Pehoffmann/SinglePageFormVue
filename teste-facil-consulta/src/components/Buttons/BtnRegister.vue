@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import {currentStep} from "../../js/functions/btns"
+import {currentStep} from "../../assets/js/functions/btns"
   export default {
     name: "BtnRegister",
     components: {},
