@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import { prevStep, currentStep } from "../../js/functions/btns";
+import { prevStep, currentStep } from "../../assets/js/functions/btns"
 export default {
   name: "BtnPrevious",
   components: {},
